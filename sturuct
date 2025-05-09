@@ -1,0 +1,14 @@
+#include <stdio.h>
+struct student
+{ 
+    int rollNo;
+    char name[50];
+    float cgpa;
+};
+
+int main()
+{
+    struct student a={1,"ajay",7.65};
+    printf("rollNo=%d\n,char name=%s\n,float cgpa=%.2f\n",a.rollNo,a.name,a.cgpa);
+    return 0;
+}
